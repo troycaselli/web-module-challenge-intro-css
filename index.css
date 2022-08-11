@@ -54,42 +54,27 @@ section {
 
 /* image and title  section*/
 .invitation {
-    border: 1px solid blue;
-    display: flex;
+    position: relative;
 }
-
 .invitation .image {
-    border: 1px solid green;
-    display: inline;
+    display: inline-block;
     width: 25%;
 }
 
 .invitation .text {
-    border: 1px solid red;
-    display: inline;
-    width: 75%;
-    padding: 1%;
+    display: inline-block;
+    width: 70%;
+    padding-left: 3%;
     text-align: center;
-
+    line-height: 2;
+    position: absolute;
+    top: 30px;
 }
 
 .invitation .image img {
     width: 100%;
     border-radius: 999px;
 }
-
-.invitation h2 {
-    width: 100%;
-    margin: auto;
-    padding: 3% 0;
-}
-
-.invitation p {
-    width: 100%;
-    margin: auto;
-    padding: 0% 10%;
-}
-
 
 /* geography and history section */
 .geography-history {
@@ -106,7 +91,7 @@ margin: 2% auto 0 auto;
 
 /* important visitor information section */
 .information img {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     width: 20%;
     display: block;
 }
@@ -118,11 +103,11 @@ margin: 2% auto 0 auto;
 .information p {
     text-align: center;
     width: 30%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     font-size: .8rem;
 }
 
-.information span {
+.information .bold {
     font-weight: bold;
 }
 
@@ -135,12 +120,10 @@ margin: 2% auto 0 auto;
     background-repeat: no-repeat;
     background-position: center top;
     margin: 5% 0 0 0;
-
 }
 
 /* footer */
 footer {
     background-color: #F9E7DC;
-    margin: 0;
-    /* border: 1px solid red; */
+    border: 1px solid #F9E7DC;
 }
