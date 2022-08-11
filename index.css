@@ -21,7 +21,6 @@ h1 {
 }
 
 section {
-    padding: 4% 0;
     width: 90%;
     margin: 0 auto;
 }
@@ -54,10 +53,41 @@ section {
 }
 
 /* image and title  section*/
-.invitation .image img {
+.invitation {
+    border: 1px solid blue;
+    display: flex;
+}
+
+.invitation .image {
+    border: 1px solid green;
+    display: inline;
     width: 25%;
+}
+
+.invitation .text {
+    border: 1px solid red;
+    display: inline;
+    width: 75%;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.invitation .image img {
+    width: 100%;
     border-radius: 999px;
-    margin: 2% 6%;
+}
+
+.invitation h2 {
+    width: 100%;
+    margin: auto;
+    padding: 3% 0;
+}
+
+.invitation p {
+    width: 100%;
+    margin: auto;
+    padding: 0% 10%;
 }
 
 
@@ -65,7 +95,7 @@ section {
 .geography-history {
 background: #DDB9A3;
 padding: .5% 4%;
-margin: 4%;
+margin: 2% auto 0 auto;
 }
 
 .geography-history .text p {
@@ -75,14 +105,25 @@ margin: 4%;
 }
 
 /* important visitor information section */
-.information .campfire img {
-    margin-left: auto;
-    margin-right: auto;
+.information img {
+    margin: 0 auto 0 auto;
     width: 20%;
+    display: block;
 }
 
-.information .campfire p {
-    text-align:center;
+.information .camper {
+    margin: 3%;
+}
+
+.information p {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    font-size: .8rem;
+}
+
+.information span {
+    font-weight: bold;
 }
 
 /* panorana photo section */
