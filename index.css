@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* general */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: black;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header navigation bar */
+.button {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.button a {
+    display: inline-block;
+    padding: 2%;
+    margin: 5vw;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.plan {
+    background: #FF764E;
+}
+
+.learn {
+    background: #5ED3EB;
+}
+
+.getInvolved {
+    background: #FFCD69;
+}
+
+/* image and title  section*/
+.invitation .image img {
+    width: 25%;
+    border-radius: 999px;
+    margin: 2% 6%;
+}
+
+
+/* geography and history section */
+.geography-history {
+background: #DDB9A3;
+padding: .5% 4%;
+margin: 4%;
+}
+
+.geography-history .text p {
+    color: white;
+    margin: 3% 0;
+    text-align: center;
+}
+
+/* important visitor information section */
+.information .campfire img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.information .campfire p {
+    text-align:center;
+}
+
+/* panorana photo section */
+
+/* footer */
+
